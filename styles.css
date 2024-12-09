@@ -135,3 +135,98 @@ header a {
   cursor: pointer;
   border-radius: 5px;
 }
+
+.brand-story {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f8f8;
+}
+
+.brand-story h2 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.brand-story p {
+  font-size: 16px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.brand-story .cta-secondary {
+  background: transparent;
+  color: #76b39d;
+  border: 2px solid #76b39d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.brand-story .cta-secondary:hover {
+  background: #76b39d;
+  color: #fff;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #76b39d;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+footer ul li {
+  font-size: 14px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #76b39d;
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+footer .social-icons a {
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #76b39d;
+}
