@@ -230,3 +230,153 @@ footer .social-icons a {
 footer .social-icons a:hover {
   color: #76b39d;
 }
+.about-hero {
+  text-align: center;
+  background-image: url("images/about-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+
+.about-hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.mission-vision {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.mission-vision h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #76b39d;
+}
+
+.mission-vision p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.journey {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f0f4f3;
+}
+
+.journey h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.timeline-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.timeline-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #76b39d;
+}
+
+.timeline-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+.founder {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.founder h2 {
+  font-size: 28px;
+  color: #76b39d;
+  margin-bottom: 20px;
+}
+
+.founder-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 60%;
+  margin: 20px 0;
+}
+
+.founder p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.sustainability {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f8f8f8;
+}
+
+.sustainability h2 {
+  font-size: 28px;
+  color: #76b39d;
+  margin-bottom: 20px;
+}
+
+.sustainability p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #555;
+}
+
+.about-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: #76b39d;
+  color: #fff;
+}
+
+.about-cta h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-cta .cta-primary {
+  background: #fff;
+  color: #76b39d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.about-cta .cta-primary:hover {
+  background: #f0f4f3;
+}
